@@ -1,6 +1,6 @@
 Feature: Register new user
   @smokeTest
-  Scenario: Registering user
+  Scenario: Registering user page
     Given I am on signup page
     When I register as new user with "nisha" and "nisha+1@email.com"
     And I should fill all mandatory registration details
